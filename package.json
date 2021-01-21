@@ -1,0 +1,30 @@
+{
+  "name": "recordintime",
+  "version": "1.0.0",
+  "description": "Simple recording app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "icon": "electron-icon-builder --input=./public/icon.png --output=./icons",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": "",
+  "author": "whoyoux",
+  "license": "",
+  "build": {
+    "productName": "Record In Time"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-reload": "^1.5.0"
+=======
+    "electron": "^11.2.0"
+>>>>>>> 6549dfd265fdfe3f6a54fc4ad863be5d74d6209c
+  }
+}
